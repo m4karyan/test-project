@@ -1,3 +1,4 @@
+import { GetterService } from './../services/getter.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -14,9 +15,10 @@ export class HeaderComponent implements OnInit {
     {Title: 'Contact', Link: '/contact'}
   ]
 
-  constructor() { }
+  constructor(private getterService: GetterService) { }
 
   ngOnInit() {
+    this.getterService.getHeaderMenu()
   }
 
 }

@@ -1,0 +1,8 @@
+{
+  "headerMenu": [
+    {"Title": "Home", "Link": "/"},
+    {"Title": "Experience", "Link": "/experience"},
+    {"Title": "Blog", "Link": "/blog"},
+    {"Title": "Contact", "Link": "/contact"}
+  ]
+}
