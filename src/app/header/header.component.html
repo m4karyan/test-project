@@ -1,0 +1,10 @@
+<div class="header_container">
+    <div class="header_logo">
+      {{title}}
+    </div>
+    <div class="header_navbar">
+      <div *ngFor="let item of navItems" [routerLink]="item.Link" class="header_navbar_item">
+        {{item.Title}}
+      </div>
+    </div>
+</div>

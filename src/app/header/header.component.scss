@@ -1,0 +1,33 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 140px;
+  background-color: #191919;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+
+  .header_logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .header_navbar {
+    display: flex;
+
+    .header_navbar_item {
+      margin: 0 10px;
+      color: #999;
+      transition: 0.2s;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        color: #fff;
+        text-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
+      }
+    }
+  }
+}
